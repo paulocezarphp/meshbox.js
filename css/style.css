@@ -1,9 +1,17 @@
+/* CSS Guide Document
+   Author: Cezar Leigos
+   last modify: Cezar Leigos
+   Year: 2018-05-19
+*/
+
+/* Card element */
 .main{
   border: 0.03cm solid #ccc;
   border-radius: 0.13cm;
   padding: 0.03cm 0.10cm;
 }
 
+/* Button element */
 .button{
   border: 0.03cm solid #ccc;
   border-radius: 0.10cm;
@@ -14,33 +22,39 @@
   outline: 0;
 }
 
+/* Button element hover*/
 .button:hover{
   opacity:0.80;
 	-moz-opacity: 0.80;
 	filter: alpha(opacity=80);
 }
 
+/* Button element active*/
 .button:active{
   background:#f2f2f2;
 }
 
+/* Big button element */
 .button.bt-big{
   font-size: 0.5cm;
   padding: 0.25cm 0.35cm 0.15cm;
   font-weight: -350;
 }
 
+/* Small button element */
 .button.bt-small{
   font-size: 0.31cm;
   padding: 0.10cm 0.25cm 0.06cm;
 }
 
+/* Color button element (blue) */
 .button.color-blue{
   background:#3399ff;
   color:#f2f2f2;
   border: 0.03cm solid #0073e6;
 }
 
+/* Color button element (blue) active*/
 .button.color-blue:active{
   background:#4da6ff;
 }
