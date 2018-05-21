@@ -1,0 +1,113 @@
+/* CSS Guide Document
+   Author: Cezar Leigos
+   last modify: Cezar Leigos
+   Year: 2018-05-20
+*/
+
+/* Button element */
+.button{
+  border: 0.13em solid #ccc;
+  border-radius: 0.20em;
+  padding: 0.40em 0.42em 0.28em;
+  background:none;
+  color:#999;
+  font-size: 1em;
+  cursor: pointer;
+  outline: 0;
+}
+
+/* Button element hover*/
+.button:hover{
+  opacity:0.90;
+	-moz-opacity: 0.90;
+	filter: alpha(opacity=90);
+}
+
+/* Button element active*/
+.button:active{
+  background:#f2f2f2;
+}
+
+/* Big button element */
+.button.bt-big{
+  font-size: 1.3em;
+  padding: 0.35em 0.45em 0.23em;
+}
+
+/* Small button element */
+.button.bt-small{
+  font-size: 0.9em;
+  padding: 0.23em 0.31em 0.23em;
+}
+
+/* Color button element (blue) */
+.button.color-blue{
+  background:#3399ff;
+  color:#004d99;
+  border: 0.03em solid #0073e6;
+}
+
+/* Color button element (blue) active*/
+.button.color-blue:active{
+  background: #4da6ff;
+}
+
+/* Color button element (green) */
+.button.color-green{
+  background: #86b300;
+  color: #4d6600;
+  border: 0.03em solid #739900;
+}
+
+/* Color button element (green) active*/
+.button.color-green:active{
+  background: #99cc00;
+}
+
+/* Color button element (yellow) */
+.button.color-yellow{
+  background: #ffd11a;
+  color: #997a00;
+  border: 0.03em solid #e6b800;
+}
+
+/* Color button element (yellow) active*/
+.button.color-yellow:active{
+  background: #ffdb4d;
+}
+
+/* Color button element (red) */
+.button.color-red{
+  background: #ff471a;
+  color: #991f00;
+  border: 0.03em solid #cc2900;
+}
+
+/* Color button element (red) active*/
+.button.color-red:active{
+  background: #ff5c33;
+}
+
+/* Color button element (black) */
+.button.color-black{
+  background: #262626;
+  color: #ccc;
+  border: 0.03em solid #0d0d0d;
+}
+
+/* Color button element (black) active*/
+.button.color-black:active{
+  background: #333333;
+}
+
+/* Color button element (grey) */
+.button.color-grey{
+  background: #bfbfbf;
+  color: #737373;
+  border: 0.03em solid #8c8c8c;
+}
+
+/* Color button element (grey) active*/
+.button.color-grey:active{
+  background: #d9d9d9;
+}
