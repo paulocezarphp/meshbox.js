@@ -3,17 +3,10 @@
    last modify: Cezar Leigos
    Year: 2018-05-20
 */
+@import url("container.css");
 @import url("button.css");
 @import url("image.css");
 @import url("form.css");
 
-body{
-  background:#f2f2f2;
-}
 
-/* Card element */
-.main{
-  border: 0.03em solid #ccc;
-  border-radius: 0.13em;
-  padding: 0.03em 0.10em;
-}
+

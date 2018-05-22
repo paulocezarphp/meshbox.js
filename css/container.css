@@ -1,0 +1,91 @@
+/* CSS Guide Document
+   Author: Cezar Leigos
+   last modify: Cezar Leigos
+   Year: 2018-05-22
+*/
+
+/* Card element */
+
+body{
+  
+}
+
+.main{
+   padding: 0.5em;   
+}
+
+.main.border{
+   border: 0.05em solid #ccc;
+}
+
+.main.radius{
+   border-radius: 0.5em;
+}
+
+.card{
+   padding: 0.9em 0.7em; 
+   border: 0.08em solid #ccc;
+}
+
+.card.radius{
+   border-radius: 0.5em;
+}
+
+.card.color-red{
+   border: 0.08em solid #ff471a;
+}
+
+.card.color-red-fill{
+   background: #ff471a;
+   color:#fff;
+}
+
+.card.color-blue{
+   border: 0.08em solid #4da6ff;
+}
+
+.card.color-blue-fill{
+   background: #4da6ff;
+   color:#fff;
+}
+
+.card.color-green{
+   border: 0.08em solid #86b300;
+}
+
+.card.color-green-fill{
+   background: #86b300;
+   color:#fff;
+}
+
+
+.card.color-yellow{
+   border: 0.08em solid #ffd11a;
+}
+
+.card.color-yellow-fill{
+   background: #ffd11a;
+   color:#222;
+}
+
+.card.color-black{
+   border: 0.08em solid #262626;
+}
+
+.card.color-black-fill{
+   background: #262626;
+   color:#f2f2f2;
+}
+
+.card.color-grey{
+   border: 0.08em solid #bfbfbf;
+}
+
+.card.color-grey-fill{
+   background: #bfbfbf;
+   color:#222;
+}
+
+.card.color-none{
+   border: none;
+}
