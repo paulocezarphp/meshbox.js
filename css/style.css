@@ -5,6 +5,7 @@
 */
 @import url("button.css");
 @import url("image.css");
+@import url("form.css");
 
 body{
   background:#f2f2f2;
