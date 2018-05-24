@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#555;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  background: #f2f2f2;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.spacelink{
+  padding: 20px 0px;
+}
+
+.linkwiki{
+  text-decoration: none;
+  font-size: 16px;
+  color: #222;
+}
+
+.linkwiki:hover{
+  color: #608000;
+}
+
+.linkwiki:action{
+  color: #222;
+}
+
+.linkwiki2{
+   color: #00a3cc;
+   font-weight: 600;
+   font-size: 14px;
+}
+
+.linkwiki2:hover{
+  color: #008fb3;
+}
+
+.linkwiki2:action{
+  color: #00a3cc;
+}
+
+h1{
+}
+
+h2{
+   color:#222;
+}
+
+h3{
+   color:#222;
+}
+
+#icox{
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+hr{
+  border:1px solid #dedede;
+  width:100%;
+}
+
+.decored{
+   color: #555;
+   text-shadow: 0.5px 0.5px 1px #333;
+
+}
+
+.header {
+  grid-area: header;
+  padding: 0px 15px;
+  text-align: left;
+  font-size: 35px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'left middle middle middle middle right'
+  'footer footer footer footer footer footer';
+
+}
+
+.left,.middle,.right {
+  padding: 10px 16px;
+}
+
+.left {
+  grid-area: left;
+  width: 200px;
+  border-right: 1px solid #ccc;
+}
+
+.middle {
+  grid-area: middle;
+  padding: 13px 50px;
+}
+
+.right {
+  grid-area: right;
+  width: 200px;
+  border-left: 1px solid #ccc;
+}
+
+.footer {
+  grid-area: footer;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+   .grid-container  {
+    grid-template-areas:
+    'header header header header header header'
+    'left left left left left left'
+    'middle middle middle middle middle middle'
+    'right right right right right right'
+    'footer footer footer footer footer footer';
+    }
+
+    .left{
+      border: none;
+    }
+
+    .right{
+      border: none;
+    }
+
+    .middle {
+      padding: 13px 14px;
+    }
+}

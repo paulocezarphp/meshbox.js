@@ -55,4 +55,10 @@ var tool = {
         return x.length;
     }
 
+    LengthCount : function(x){
+        for(var i = 0; i < x.length; i++){
+
+        }
+    }
+
 };

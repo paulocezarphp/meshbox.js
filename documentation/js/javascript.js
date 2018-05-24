@@ -1,0 +1,10 @@
+document.write('<h2 class="decored">Tema</h2>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Introduction</a></div>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Components</a></div>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Text</a></div>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Button</a></div>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Menu</a></div>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Event</a></div>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Forms</a></div>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Utilities</a></div>');
+document.write('<div style="margin:7px 0px;"><a href="#" class="linkwiki">Methods</a></div>');
