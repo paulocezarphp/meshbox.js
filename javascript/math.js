@@ -1,7 +1,7 @@
 /* Guide Document (math)
    Author: Cezar Leigos
    last modify: Cezar Leigos
-   Year: 2018-05-19
+   Year: 2018-05-25
 */
 
 var math = {

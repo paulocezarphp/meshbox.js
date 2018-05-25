@@ -1,7 +1,7 @@
 /* Guide Document (tool)
    Author: Cezar Leigos
    last modify: Cezar Leigos
-   Year: 2018-05-19
+   Year: 2018-05-25
 */
 
 var tool = {
@@ -39,26 +39,9 @@ var tool = {
            }
         }
         return a;
-    },
-
-    /*
-        Conta quantos elementos tem um determinado array
-    */
-    LengthArray : function(x) {
-        return x.length;
-    },
-
-    /*
-        Conta quantos caracteres tem um determinado array
-    */
-    LengthString : function(x) {
-        return x.length;
     }
 
-    LengthCount : function(x){
-        for(var i = 0; i < x.length; i++){
 
-        }
-    }
+
 
 };
