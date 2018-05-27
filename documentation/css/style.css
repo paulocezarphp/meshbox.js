@@ -8,13 +8,12 @@ body {
   color:#555;
   letter-spacing: 0.5px;
   line-height: 22px;
-  background: #f2f2f2;
-
+  background: #fff;
   font-family: 'Roboto', sans-serif;
 }
 
 .spacelink{
-  padding: 20px 0px;
+   padding: 20px 0px;
 }
 
 .linkwiki{
@@ -61,14 +60,14 @@ h3{
 }
 
 #icox{
-  width: 30px;
-  height: 30px;
-  border-radius: 4px;
+   width: 30px;
+   height: 30px;
+   border-radius: 4px;
 }
 
 hr{
-  border:1px solid #dedede;
-  width:100%;
+   border:1px solid #dedede;
+   width:100%;
 }
 
 .decored{
@@ -78,10 +77,10 @@ hr{
 }
 
 .header {
-  grid-area: header;
-  padding: 0px 15px;
-  text-align: left;
-  font-size: 35px;
+   grid-area: header;
+   padding: 0px 15px;
+   text-align: left;
+   font-size: 35px;
 }
 
 .grid-container {
@@ -90,7 +89,6 @@ hr{
   'header header header header header header'
   'left middle middle middle middle right'
   'footer footer footer footer footer footer';
-
 }
 
 .left,.middle,.right {
@@ -120,6 +118,34 @@ hr{
   text-align: center;
 }
 
+.cod-div{
+  background: #f2f2f2;
+  padding: 17px 15px;
+  color: #888;
+  width: 100%;
+  overflow-y: hidden; /* Hide horizontal scrollbar */
+  overflow-x: auto; /* Add vertical scrollbar */
+  border-left: 3px solid #ccc ;
+  border-right: 3px solid #ccc ;
+}
+
+.cod-class{
+  color: #0088cc;
+}
+
+.cod-atribute{
+  color: #77b300;
+}
+
+.cod-tag{
+  color: #ff6666;
+}
+
+.Supertext{
+  color: #006680;
+  font-size: 20px;
+}
+
 @media (max-width: 600px) {
    .grid-container  {
     grid-template-areas:
@@ -141,4 +167,5 @@ hr{
     .middle {
       padding: 13px 14px;
     }
+
 }
